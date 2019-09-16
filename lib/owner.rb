@@ -43,4 +43,12 @@ class Owner
     Dog.new(name, self)
   end 
   
+  def walk_dogs
+    self.all.each do |pet|
+      if 
+        pet.species 
+      end 
+    end 
+  end 
+  
 end
